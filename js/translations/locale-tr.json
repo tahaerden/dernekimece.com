@@ -1,0 +1,49 @@
+{
+	"CURRENT_LANG": "Türkçe",
+
+	"_comment": "Navigation Menu",
+	"HOME": "Anasayfa",
+	"ABOUT": "Hakkımızda",
+	"VISION": "Vizyon",
+	"MISSION": "Misyon",
+	"CONTACT": "İletişim",
+
+	"_comment": "Info Section",
+	"ABOUT_DESC": "Dernek geçmişi, uzmanlık alanları ve deneyimleri",
+	"VISION_DESC": "İlkelerimiz, sorumluluklarımız, çalışma alanlarımız",
+	"MISSION_DESC": "Araçlarımız, amaçlarımız, hedef kitlemiz",
+	"ABOUT_TEXT": "Dernek İMEÇE yeni kurulmuş bir sivil toplum kuruluşu olarak, insan, toplum ve doğal çevre için eşitlikçi, adaletli, sürdürülebilir ve nitelikli bir gelecek oluşturabilme isteğiyle, insan, mekan, enerji ve çevre konularına odaklanmaktadır. İMEÇE, kendilerini toplumun ve bireylerin yararına yönelik, eylem ve çalışmalara adamış, profesyoneller ve akademisyenlerden (şehir plancıları, mimarlar, kentsel tasarımcılar, mühendisler, sosyal bilimciler ve kamu yönetimi, iş yönetimi ve gelişimi, finans, danışmanlık ve bilgi teknolojileri uzmanları) oluşmuştur.",
+	"VISION_TEXT": "Toplumsal ve çevresel kalkınmayı destekleyen yaratıcı ve yenilikçi projeler üretmek. <br><br> Hedefler: Yaşayan, yaşatan, hatırlayan, devamlılık içeren, geçmiş ve geleceği birleştiren, verimli, üretken (ortamlar oluşturmak), koruyucu, kollayıcı, kavrayıcı, kapsayıcı, dışlamayan (inclusive) – bir dernek olmak",
+	"MISSION_TEXT": "Doğru insanlar, doğru hedeflerle ve uygun projelerle, ihtiyaç sahibi grup ve kişilere ulaşmak, hizmet götürmek. <br><br>İnsan, mekan, enerji ve çevre kavramlarını nitelikli yaşam kavramıyla bütünleştirecek projelerde yer almak, hizmet vermek. <br><br>Hedefler: Hakça yaşanabilir, yaşayan, üretken, üreten, paylaşımcı, paylaşan (projeler üretmek).",
+
+	"_comment": "Projects Section",
+	"PROJECTS_APPLIED": "Başvurulan Projeler",
+	"PROJECT1_SHORTNAME": "AFCP",
+	"PROJECT1_HEADER": "Kültürel Korumayı Güçlendirmek için Anadolu’nun Neolitik Dönem Geçmişini Dünya Mirası ile Yerel Halk arasında bir Köprü Olarak Kayıt Altına Almak",
+	"PROJECT1_DESC": "Başvuru Tarihi: Aralık 2015<br>Başvurulan Kurum: Amerikan Büyükelçiliği<br>Başvurulan Fon: Ambassadors Fund for Cultural Preservation<br><br> Projemiz, günümüzde ve gelecekte global kültürel miras ile ilgili farkındalığın arttırılmasına katkıda bulunmak için Anadolu’nun Neolitik dönem geçmişini kayıt altına alan bir belgesel ile beraber yürütülecek bir sosyal farkındalık programı önerir. Dünya genelinde yaşanan kültürel miras yıkımlarının gösterdiği gibi, arkeolojik alanların ve anıtların korunması için sadece noktasal koruma önlemleri almak yetersizdir. Projemiz, sosyal yardım ve farkındalık programlarından güç alan bir bilgi dağıtım organizasyonunun kültürel mirasın sürdürülebilir korunması için hayati önem taşıdığını savunur. Böyle bir yaklaşımda, kültürel miras her şeyden soyutlanmış bir geçmiş tortusu olmaktan çıkarak küresel mirasın göstergesi haline gelir. Türkiye’nin ondört şehrinde pilot uygulamalarla başlatacağımız sosyal farkındalık projesi ile beraber yürüteceğimiz belgesel kayıtları, sonucunda bize bu kentlerin Neolitik geçmişlerini hem bilimadamlarının hem de yerel halkın gözüyle anlatan, yerel halkı sürece dahil eden ve uzun vadede hem bu kentlerde hem de ülke ve dünya genelinde Türkiye’nin Neolitik mirasını küresel bir değer olarak tanıtan bir görsel kayıt üretecektir. ",
+
+	"PROJECT2_SHORTNAME": "Tamzara",
+	"PROJECT2_HEADER": "Geçmi̇şten Geleceğe İlmek İlmek: Tamzara, Şebi̇nkarahi̇sar",
+	"PROJECT2_DESC": "Başvuru Tarihi: xxx<br>Başvurulan Kurum: Europa Nostra<br>Başvurulan Fon: 2016 AB Kültürel Miras Ödülü<br><br>Hayatın ve kültürün önemli bir parçası olan ve hem estetik hem de işlevsel bir ortam yaratabilen dokuma geleneği, Şebinkarahisar'da sosyal ve ekonomik sürdürülebilirlik için önemli bir araç haline gelmiş, bu sayede neredeyse unutulmaya yüz tutmuş tarihsel Şebinkarahisar dokuması Tamzara markalaşma yoluna girmiştir. Sosyal Yardımlaşma ve Dayanışma Kurumu, Şebinkarahisar ilçe yönetiminin başkanlığında, 2010 yılında Tamzara dokuma kültürünü yaygınlaştırmak için bir farkındalık projesi başlatmıştır.<br><br>Tarihi İpek Yolu üzerinde bulunan bu Kuzey Anadolu kenti, günümüzde moda defileleri, tanıtım videoları ve Tamzara'yı tanıtan basın bildirileri ile adını duyurur bir hale gelmiştir. Bu tanınırlık, kursların açılması ve dokuma tezgahlarının kullanımının yaygınlaştırılması ile başlamıştır. Bu proje, gençler ve kadınlar için bir fırsat oluşturmuş, geleneksel sağlıklı dokusuyla geçmişle geleceği bağlayan somut kültürel mirasın yerel olarak anlaşılmasına ve desteklenmesine katkıda bulunmuştur. Dokuma tezgahlarının sesi yeniden Şebikarahisar'ın kimliğinin ayrılmaz bir parçası haline gelmiştir.",
+
+	"PROJECT3_SHORTNAME": "IPA",
+	"PROJECT3_HEADER": "Bulgaristan-Türkiye IPA Sınır Ötesi İşbirliği Programı",
+	"PROJECT3_DESC": "xxx",
+
+	"PROJECT4_SHORTNAME": "Göçmenler",
+	"PROJECT4_HEADER": "Iraklı Türkmenlerin Toplum ve İş Yaşamına Kazandırılması Projesi",
+	"PROJECT4_DESC": "xxx",
+
+	"_comment": "Contact Section",
+	"CONTACT": "İletişim",
+	"CONTACT_DESC": "Aşağıdaki bilgileri kullanarak bize ulaşabilirsiniz",
+	"ADDRESS": "Adres",
+	"PHONE": "Telefon",
+	"EMAIL": "E-Posta"
+}
+
+
+
+
+
+

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html ng-app="myApp" ng-controller="global">
+<head lang="{{ lang }}">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="İnsan, mekan, enerji ve Çevrekan, enerji ve çevre kavramlarını nitelikli yaşam kavramıyla bütünleştirecek projelerde yer almak, hizmet vermek misyonuyla kurulmuştur.">
+	<meta name="author" content="Taha ERDEN">
+
+	<title>Dernek İMEÇE</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="css/ihover.min.css"/> -->
+	<link rel="stylesheet" type="text/css" href="css/slider-pro.min.css" media="screen"/>
+	<link rel="stylesheet" href="css/gridfolio.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body class="slimscroll">
+	<nav id="nav-main" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html"><img class="logo hidden-lg" src="img/logo.png" alt="Sembol Temel Lisesi logo"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse slimscroll" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<!-- <li><a href="index.html">Anasayfa</a></li> -->
+					<li><a href="#hakkimizda">{{'HOME' | translate}}</a></li>
+					<li><a href="#hakkimizda">{{'ABOUT' | translate}}</a></li>
+					<li><a href="#vizyon">{{'VISION' | translate}}</a></li>
+					<li><a href="index.html" class="logoLink"><img class="logo visible-lg" src="img/logo.png" alt="Sembol Temel Lisesi logo"></a></li>
+					<li><a href="#misyon">{{'MISSION' | translate}}</a></li>
+					<li><a href="#iletisim">{{'CONTACT' | translate}}</a></li>
+					<!-- Language Option -->
+					<li class="dropdown messages-menu">
+						<a href="" class="dropdown-toggle language-selector" data-toggle="dropdown">
+							<i class="fa fa-globe"></i> 
+							<span> {{'CURRENT_LANG' | translate}}</span> 
+							<i class="fa fa-caret-down"></i>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<ul class="menu">
+									<li>
+										<a href="" ng-click="changeLanguage('en')">
+											English
+										</a>
+									</li>
+									<li>
+										<a href="" ng-click="changeLanguage('tr')">
+											Türkçe
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="row">
+		<div class="container-fluid">
+
+			<div id="homeSlider" class="slider-pro">
+				<div class="sp-slides">
+					<div class="sp-slide">
+						<img class="sp-image" src="img/sliderPro/blank.gif" 
+						data-src="http://bqworks.com/slider-pro/images/image1_medium.jpg"
+						data-small="http://bqworks.com/slider-pro/images/image1_small.jpg"
+						data-medium="http://bqworks.com/slider-pro/images/image1_medium.jpg"
+						data-large="http://bqworks.com/slider-pro/images/image1_large.jpg"
+						data-retina="http://bqworks.com/slider-pro/images/image1_large.jpg"/>
+
+						<p class="sp-layer sp-white sp-padding"
+						data-horizontal="50" data-vertical="50"
+						data-show-transition="left" data-show-delay="400">
+						Lorem ipsum
+					</p>
+
+					<p class="sp-layer sp-black sp-padding"
+					data-horizontal="180" data-vertical="50"
+					data-show-transition="left" data-show-delay="600">
+					dolor sit amet
+				</p>
+
+				<p class="sp-layer sp-white sp-padding"
+				data-horizontal="315" data-vertical="50"
+				data-show-transition="left" data-show-delay="800">
+				consectetur adipisicing elit.
+			</p>
+		</div>
+
+		<div class="sp-slide">
+			<img class="sp-image" src="img/sliderPro/blank.gif" 
+			data-src="http://bqworks.com/slider-pro/images/image2_medium.jpg" 
+			data-small="http://bqworks.com/slider-pro/images/image2_small.jpg"
+			data-medium="http://bqworks.com/slider-pro/images/image2_medium.jpg"
+			data-large="http://bqworks.com/slider-pro/images/image2_large.jpg"
+			data-retina="http://bqworks.com/slider-pro/images/image2_large.jpg"/>
+
+			<h3 class="sp-layer sp-rounded sp-black sp-padding" 
+			data-horizontal="40" data-vertical="40" 
+			data-show-transition="left"
+			data-hide-transition="right">
+			Teha Lorem ipsum dolor sit amet
+		</h3>
+
+		<p class="sp-layer sp-white sp-padding" 
+		data-horizontal="40" data-vertical="100" 
+		data-show-transition="left" data-show-delay="200">
+		consectetur adipisicing elit
+	</p>
+
+	<p class="sp-layer sp-black sp-padding" 
+	data-horizontal="40" data-vertical="160" data-width="350" 
+	data-show-transition="left" data-show-delay="400">
+	sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image3_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image3_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image3_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image3_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image3_large.jpg"/>
+
+	<p class="sp-layer sp-white sp-padding" 
+	data-position="centerCenter" data-vertical="-50" 
+	data-show-transition="right" data-show-delay="500" >
+	Lorem ipsum dolor sit amet
+</p>
+
+<p class="sp-layer sp-black sp-padding" 
+data-position="centerCenter" data-vertical="50" 
+data-show-transition="left" data-show-delay="700">
+consectetur adipisicing elit
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image4_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image4_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image4_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image4_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image4_large.jpg"/>
+
+	<p class="sp-layer sp-black sp-padding"
+	data-position="bottomLeft" data-vertical="0" data-width="100%"
+	data-show-transition="up">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image5_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image5_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image5_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image5_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image5_large.jpg"/>
+
+	<p class="sp-layer sp-white sp-padding" 
+	data-vertical="5%" data-horizontal="5%" data-width="90%" 
+	data-show-transition="down" data-show-delay="400">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image6_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image6_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image6_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image6_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image6_large.jpg"/>
+
+	<p class="sp-layer sp-white sp-padding" 
+	data-horizontal="10" data-vertical="10" data-width="300">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image7_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image7_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image7_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image7_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image7_large.jpg"/>
+
+	<p class="sp-layer sp-black sp-padding" 
+	data-position="bottomLeft" data-horizontal="5%" data-vertical="5%" data-width="90%" 
+	data-show-transition="up" data-show-delay="400">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image8_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image8_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image8_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image8_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image8_large.jpg"/>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image9_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image9_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image9_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image9_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image9_large.jpg"/>
+
+	<p class="sp-layer sp-black sp-padding" 
+	data-horizontal="50" data-vertical="50"
+	data-show-transition="down" data-show-delay="500">
+	Lorem ipsum dolor sit amet
+</p>
+
+<p class="sp-layer sp-white sp-padding" 
+data-horizontal="50" data-vertical="100"
+data-show-transition="up" data-show-delay="500">
+consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</p>
+</div>
+
+<div class="sp-slide">
+	<img class="sp-image" src="img/sliderPro/blank.gif" 
+	data-src="http://bqworks.com/slider-pro/images/image10_medium.jpg" 
+	data-small="http://bqworks.com/slider-pro/images/image10_small.jpg"
+	data-medium="http://bqworks.com/slider-pro/images/image10_medium.jpg"
+	data-large="http://bqworks.com/slider-pro/images/image10_large.jpg"
+	data-retina="http://bqworks.com/slider-pro/images/image10_large.jpg"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 
+<div class="row">
+	<div class="container">
+	<div class="col-xs-6 col-xs-offset-3">
+		<img src="img/logo.png" alt="Dernek İMEÇE logo" class="img-responsive" style="margin: 0px auto;">
+	</div>
+	</div>
+</div> -->
+
+<div class="row">
+	<div class="container">
+		<div class="col-sm-12">
+			<img src="img/logo.png" alt="Dernek İMEÇE logo" class="img-responsive" style="margin: 0px auto; padding-top: 40px;">
+			<h2>İnsan, Mekan, Enerji ve Çevre Derneği</h2>
+			<!-- <div class="seperator"></div> -->
+			<!-- <h4 class="text-secondary">Dernek geçmişi, uzmanlık alanları ve deneyimleri</h4> -->
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="container">
+		<div id="hakkimizda" class="col-md-4">
+			<h2><i class="fa fa-info-circle"></i> {{'ABOUT' | translate}}</h2>
+			<div class="seperator"></div>
+			<h4 class="text-secondary">{{'ABOUT_DESC' | translate}}</h4>
+			<div class="col-sm-12">
+				<p>
+					{{'ABOUT_TEXT' | translate}}
+				</p>
+			</div>
+		</div>
+		<div id="vizyon" class="col-md-4">
+			<h2><i class="fa fa-eye"></i> {{'VISION' | translate}}</h2>
+			<div class="seperator"></div>
+			<h4 class="text-secondary">{{'VISION_DESC' | translate}}</h4>
+			<p ng-bind-html="'VISION_TEXT' | translate">
+			</p>
+		</div>
+		<div id="misyon" class="col-md-4">
+			<h2><i class="fa fa-handshake-o"></i> {{'MISSION' | translate}}</h2>
+			<div class="seperator"></div>
+			<h4 class="text-secondary">{{'MISSION_DESC' | translate}}</h4>
+			<p ng-bind-html="'MISSION_TEXT' | translate">
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="row">
+	<h2><i class="fa fa-pencil"></i> {{'PROJECTS_APPLIED' | translate}}</h2>
+	<div class="wmg-container my-grid">
+
+		<div class="wmg-item">
+			<div class="wmg-thumbnail">
+				<div class="wmg-thumbnail-content">
+					<!-- Thumbnail -->
+					<img src="img/projects/small/1.jpg" alt="image">
+				</div>
+				<div class="wmg-arrow"></div>
+				<h4>{{'PROJECT1_SHORTNAME' | translate}}</h4>
+			</div>
+			<div class="wmg-details">
+				<span class="wmg-close wmg-close-custom"></span>
+				<div class="wmg-details-content">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<img class="img-responsive" src="img/projects/large/1.jpg" alt="image">
+						</div>
+						<div class="col-md-6">
+							<h3 class="text-white">{{'PROJECT1_HEADER' | translate}} </h3>
+							<hr>
+							<p ng-bind-html="'PROJECT1_DESC' | translate">
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wmg-item">
+			<div class="wmg-thumbnail">
+				<div class="wmg-thumbnail-content">
+					<!-- Thumbnail -->
+					<img src="img/projects/small/1.jpg" alt="image">
+				</div>
+				<div class="wmg-arrow"></div>
+				<h4>{{'PROJECT2_SHORTNAME' | translate}}</h4>
+			</div>
+			<div class="wmg-details">
+				<span class="wmg-close wmg-close-custom"></span>
+				<div class="wmg-details-content">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<img class="img-responsive" src="img/projects/large/1.jpg" alt="image">
+						</div>
+						<div class="col-md-6">
+							<h3 class="text-white">{{'PROJECT2_HEADER' | translate}} </h3>
+							<hr>
+							<p ng-bind-html="'PROJECT2_DESC' | translate">
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wmg-item">
+			<div class="wmg-thumbnail">
+				<div class="wmg-thumbnail-content">
+					<!-- Thumbnail -->
+					<img src="img/projects/small/IPA.png" alt="image">
+				</div>
+				<div class="wmg-arrow"></div>
+				<h4>{{'PROJECT3_SHORTNAME' | translate}}</h4>
+			</div>
+			<div class="wmg-details">
+				<span class="wmg-close wmg-close-custom"></span>
+				<div class="wmg-details-content">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<img class="img-responsive" src="img/projects/large/IPA.png" alt="image">
+						</div>
+						<div class="col-md-6">
+							<h3 class="text-white">{{'PROJECT3_HEADER' | translate}} </h3>
+							<hr>
+							<p ng-bind-html="'PROJECT3_DESC' | translate">
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wmg-item">
+			<div class="wmg-thumbnail">
+				<div class="wmg-thumbnail-content">
+					<!-- Thumbnail -->
+					<img src="img/projects/small/1.jpg" alt="image">
+				</div>
+				<div class="wmg-arrow"></div>
+				<h4>{{'PROJECT4_SHORTNAME' | translate}}</h4>
+			</div>
+			<div class="wmg-details">
+				<span class="wmg-close wmg-close-custom"></span>
+				<div class="wmg-details-content">
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<img class="img-responsive" src="img/projects/large/1.jpg" alt="image">
+						</div>
+						<div class="col-md-6">
+							<h3 class="text-white">{{'PROJECT4_HEADER' | translate}} </h3>
+							<hr>
+							<p ng-bind-html="'PROJECT4_DESC' | translate">
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<div class="row">
+	<div class="container-fluid">
+		<div id="myMap" style="width:100%;height:400px"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="container text-center">
+		<div id="iletisim" class="col-md-12">
+			<h2>{{'CONTACT' | translate}}</h2>
+			<div class="seperator"></div>
+			<h4 class="text-secondary">{{'CONTACT_DESC' | translate}}</h4>
+			<div class="col-sm-4" style="min-height: 230px;">
+				<span class="fa-stack fa-3x">
+					<i class="fa fa-circle fa-stack-2x text-secondary"></i>
+					<i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+				</span>
+				<br>
+				<h3>{{'ADDRESS' | translate}}</h3>
+				<p class="text-center">
+					Zekai Apaydın sok. 20/A Oran/Çankaya/Ankara, Türkiye
+				</p>
+			</div>
+			<div class="col-sm-4" style="min-height: 230px;">
+				<span class="fa-stack fa-3x">
+					<i class="fa fa-circle fa-stack-2x text-secondary"></i>
+					<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+				</span>
+				<br>
+				<h3>{{'PHONE' | translate}}</h3>
+				<p class="text-center">
+					90 312 491 34 50
+				</p>
+			</div>
+			<div class="col-sm-4" style="min-height: 230px;">
+				<span class="fa-stack fa-3x">
+					<i class="fa fa-circle fa-stack-2x text-secondary"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+				</span>
+				<br>
+				<h3>{{'EMAIL' | translate}}</h3>
+				<p class="text-center">
+					info@dernekimece.com 
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-animate.min.js"></script>
+<script type="text/javascript" src="js/angular-cookies.min.js"></script>
+<script type="text/javascript" src="js/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="js/angular-translate.min.js"></script>
+<script type="text/javascript" src="js/angular-translate-loader-static-files.min.js"></script>
+<script type="text/javascript" src="js/angular-translate-storage-cookie.min.js"></script>
+<script type="text/javascript" src="js/angular-translate-storage-local.min.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+<script src="js/gridfolio.min.js"></script>
+
+<script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#homeSlider' ).sliderPro({
+			width: '100%',
+			height: 500,
+			// forceSize: 'fullWindow', // 'fullWidth', 'fullWindow' and 'none'.
+			responsive: true,
+			// visibleSize: 200,
+			imageScaleMode: 'cover', //'cover', 'contain', 'exact' and 'none'
+			// autoHeight: false,
+			// orientation: 'horizontal', // 'horizontal' and 'vertical'
+			arrows: true,
+			thumbnailArrows: true,
+			buttons: false,
+			fullScreen: true,
+			autoplay: true,
+			// autoplayOnHover: 'pause', // 'pause', 'stop' and 'none'
+			// loop: true,
+			slideDistance: 0,
+			slideAnimationDuration: 2000,
+			// heightAnimationDuration: 2000,
+			waitForLayers: true,
+			// fade: true,
+			// fadeOutPreviousSlide: false,
+			// fadeDuration: 1000,
+			// breakpoints:{
+			// 	800: {
+			// 		thumbnailsPosition: 'bottom',
+			// 		thumbnailWidth: 270,
+			// 		thumbnailHeight: 100
+			// 	},
+			// 	500: {
+			// 		orientation: 'vertical',
+			// 		thumbnailsPosition: 'bottom',
+			// 		thumbnailWidth: 120,
+			// 		thumbnailHeight: 50
+			// 	}
+			// }
+			// reachVideoAction: 'playVideo', // 'playVideo' and 'none',
+			// leaveVideoAction: 'pauseVideo', // 'stopVideo', 'pauseVideo', 'removeVideo' and 'none'
+			// playVideoAction: 'stopAutoplay', // 'stopAutoplay' and 'none'
+			// pauseVideoAction: 'startAutoplay', // 'startAutoplay' and 'none'
+			// endVideoAction: 'startAutoplay', // 'startAutoplay', 'nextSlide', 'replayVideo' and 'none'
+		});
+	});
+</script>
+
+<script>
+	$('ul.nav >li:not(.messages-menu)').find('a').click(function(){
+		var $href = $(this).attr('href');
+		var $anchor = $($href).offset();
+		$('body').animate({ scrollTop: $anchor.top - 130 }, 1000);
+		$(".navbar-collapse").collapse('hide');
+		return false;
+	});
+</script>
+
+<script type="text/javascript">
+	$('.my-grid').WMGridfolio({
+		selectors : {
+			item : 'wmg-item',
+			thumbnail : 'wmg-thumbnail',
+			details : 'wmg-details',
+			close : 'wmg-close-custom',
+			arrow : 'wmg-arrow'
+		},
+
+		thumbnail : {
+			columns : 4,
+        // minSize : 100,
+        // margin   : 5
+      },
+		// details : {
+  //       minHeight : 400,
+  //       speed  : 350,
+  //       full_w : false
+  //   },
+    // config : {
+    //     open          : 'open',
+    //     openToTop     : true,
+    //     hasImg        : true,
+    //     keepOpen      : false,
+    //     onlyThumb     : false
+    // }
+});
+</script>
+
+<script>
+	var map;
+	function initMap() {
+		var mapOptions = {
+			center: new google.maps.LatLng(39.848192, 32.818620), 
+			zoom: 17,
+			mapTypeControl: false,
+			zoomControl: false,
+			scrollwheel: false,
+			scaleControl: false,
+			navigationControl: false,
+			streetViewControl: false,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById("myMap"), mapOptions);
+		var marker = new google.maps.Marker({
+			map: map,
+			position: new google.maps.LatLng(39.848192, 32.818620)
+		});
+	}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkXGd6Q3I0atCd4bEMQ512AOpHgEipWIg&callback=initMap"></script>
+</body>
+</html>

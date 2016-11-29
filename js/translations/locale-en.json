@@ -1,0 +1,43 @@
+{
+	"CURRENT_LANG": "English",
+
+	"_comment": "Navigation Menu",
+	"HOME": "Home",
+	"ABOUT": "About",
+	"VISION": "Vision",
+	"MISSION": "Mision",
+	"CONTACT": "Contact",
+
+	"_comment": "Info Section",
+	"ABOUT_DESC": "xxx",
+	"VISION_DESC": "xxx",
+	"MISSION_DESC": "xxx",
+	"ABOUT_TEXT": "xxx",
+	"VISION_TEXT": "xxx",
+	"MISSION_TEXT": "xxx",
+
+	"_comment": "Projects Section",
+	"PROJECTS_APPLIED": "Projects Applied",
+	"PROJECT1_SHORTNAME": "AFCP",
+	"PROJECT1_HEADER": "Documenting Anatolia’s Neolithic Past as a Bridge between World Heritage and Communities for Strengthening Cultural Preservation",
+	"PROJECT1_DESC": "Application Date: December 2015<br>Applied To: American Embassy<br>Applied Fund: Ambassadors Fund for Cultural Preservation<br><br>Our proposal entails the production of a documentary on Anatolia’s Neolithic past that is coupled with a public outreach project to contribute to the awareness of global cultural heritage for preservation now and in the future. As recent destructions of cultural heritage around the world demostrate, the preservation of archaeological monuments and sites require interventions beyond conservation and preservation. Our proposal argues that public outreach and better dissemination of information on heritage are fundamental to cultivate an understanding of preservation in which archaeological sites are not seen only as isolated niches of the past, but as embodiments of everybody’s global heritage. Through a pilot initiative in fourteen provinces of Turkey containing a public outreach program coupled with documentary recording, we will produce visual documentation that narrates the Neolithic past of these cities through the eyes of both scholars and local communities, which embraces local communities as an integral part of this process, and strives to make Turkey’s Neolithic heritage a global value in both Turkey and the rest of the world.",
+
+	"PROJECT2_SHORTNAME": "Tamzara",
+	"PROJECT2_HEADER": "Knot by knot from past to future: Tamzara, Şebinkarahisar",
+	"PROJECT2_DESC": "Application Date: xxx<br>Applied To: Europa Nostra<br>Applied Fund: 2016 EU Prize for Cultural Heritage<br><br>The cloth being an important part of life and culture, and creating an aesthetical functional medium, became an important tool for social and economic sustainability of Şebinkarahisar; also by branding its almost forgotten historical textile: Tamzara.  Social Cooperation and Solidarity Foundation under the District Administration of Şebinkarahisar has started an awareness project in 2010 to widespread the culture of weaving Tamzara.<br><br>This historical Northern Anatolian town in Turkey, located on the ancient Silk Road, now became to be known by fashion shows, through promotional videos, news releases on the modern presentation of Tamzara.  The publicity was initiated with the startup of courses and expanding the use of weaving looms. The project created an opportunity for young and women, increasing an understanding and local support for this tangible heritage which bonds past to future with its traditional healthy fabric. Nonetheless the sound of looms again revived within the identity of Şebinkarahisar.",
+
+	"PROJECT3_SHORTNAME": "IPA",
+	"PROJECT3_HEADER": "xxx",
+	"PROJECT3_DESC": "xxx",
+
+	"PROJECT4_SHORTNAME": "Immigrants",
+	"PROJECT4_HEADER": "xxx Iraklı Türkmenlerin Toplum ve İş Yaşamına Kazandırılması Projesi",
+	"PROJECT4_DESC": "xxx",
+
+	"_comment": "Contact Section",
+	"CONTACT": "Contact",
+	"CONTACT_DESC": "Get in touch with us using the info below",
+	"ADDRESS": "Address",
+	"PHONE": "Phone",
+	"EMAIL": "Email"
+}
