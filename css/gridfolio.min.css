@@ -49,11 +49,11 @@
 	width: 30px;
 }
 .wmg-close:hover, .wmg-close:active{
-	background-position: 0px -31px; 
+	background-position: 0px -31px;
 }
 .wmg-details-content{
 	// background: #e3e3e3;
-	background: #588548;
+	background: #646464;
 	padding: 0 35px;
 	color: white;
 	font-family: 'Calibri', 'Raleway', Arial, Helvetica, sans-serif;
