@@ -9,12 +9,12 @@
 	"CONTACT": "Contact",
 
 	"_comment": "Info Section",
-	"ABOUT_DESC": "xxx",
-	"VISION_DESC": "xxx",
-	"MISSION_DESC": "xxx",
-	"ABOUT_TEXT": "xxx",
-	"VISION_TEXT": "xxx",
-	"MISSION_TEXT": "xxx",
+	"ABOUT_DESC": "Association history, expertise and experience",
+	"VISION_DESC": "Our principles, our responsibilities, our work areas",
+	"MISSION_DESC": "Our principles, our responsibilities, our work areas...",
+	"ABOUT_TEXT": "As a newly established non-governmental organization, the association İMECE focuses on human, space, energy and environment issues with the desire to create an equitable, just, sustainable and qualified future for people, society and the natural environment. The IMM has consisted of professionals and academicians (city planners, architects, urban designers, engineers, social scientists and public administrators, business management and development, finance, consulting and information technology specialists) dedicated to action and work for the benefit of society and the individual.",
+	"VISION_TEXT": "To produce creative and innovative projects that support social and environmental development.<br>Objectives: To be an association that is living, livelihooding, remembering, continuing, combining past and future, productive, productive (creating environments), protective, obsessive, inclusive, inclusive",
+	"MISSION_TEXT": "The right people, with the right goals and suitable projects, to reach the groups and persons with the need, to take the service.<br>To be involved in the projects that will integrate the concepts of human, space, energy and environment with the concept of qualified life, to serve.<br>Objectives: To be able to live, live, produce, share, share (to produce projects).",
 
 	"_comment": "Projects Section",
 	"PROJECTS_APPLIED": "Projects Applied",
@@ -24,15 +24,15 @@
 
 	"PROJECT2_SHORTNAME": "Tamzara",
 	"PROJECT2_HEADER": "Knot by knot from past to future: Tamzara, Şebinkarahisar",
-	"PROJECT2_DESC": "Application Date: xxx<br>Applied To: Europa Nostra<br>Applied Fund: 2016 EU Prize for Cultural Heritage<br><br>The cloth being an important part of life and culture, and creating an aesthetical functional medium, became an important tool for social and economic sustainability of Şebinkarahisar; also by branding its almost forgotten historical textile: Tamzara.  Social Cooperation and Solidarity Foundation under the District Administration of Şebinkarahisar has started an awareness project in 2010 to widespread the culture of weaving Tamzara.<br><br>This historical Northern Anatolian town in Turkey, located on the ancient Silk Road, now became to be known by fashion shows, through promotional videos, news releases on the modern presentation of Tamzara.  The publicity was initiated with the startup of courses and expanding the use of weaving looms. The project created an opportunity for young and women, increasing an understanding and local support for this tangible heritage which bonds past to future with its traditional healthy fabric. Nonetheless the sound of looms again revived within the identity of Şebinkarahisar.",
+	"PROJECT2_DESC": "Application Date: ---<br>Applied To: Europa Nostra<br>Applied Fund: 2016 EU Prize for Cultural Heritage<br><br>The cloth being an important part of life and culture, and creating an aesthetical functional medium, became an important tool for social and economic sustainability of Şebinkarahisar; also by branding its almost forgotten historical textile: Tamzara.  Social Cooperation and Solidarity Foundation under the District Administration of Şebinkarahisar has started an awareness project in 2010 to widespread the culture of weaving Tamzara.<br><br>This historical Northern Anatolian town in Turkey, located on the ancient Silk Road, now became to be known by fashion shows, through promotional videos, news releases on the modern presentation of Tamzara.  The publicity was initiated with the startup of courses and expanding the use of weaving looms. The project created an opportunity for young and women, increasing an understanding and local support for this tangible heritage which bonds past to future with its traditional healthy fabric. Nonetheless the sound of looms again revived within the identity of Şebinkarahisar.",
 
 	"PROJECT3_SHORTNAME": "IPA",
-	"PROJECT3_HEADER": "xxx",
-	"PROJECT3_DESC": "xxx",
+	"PROJECT3_HEADER": "Bulgaria-Turkey IPA CBC Program",
+	"PROJECT3_DESC": "---",
 
 	"PROJECT4_SHORTNAME": "Immigrants",
-	"PROJECT4_HEADER": "xxx Iraklı Türkmenlerin Toplum ve İş Yaşamına Kazandırılması Projesi",
-	"PROJECT4_DESC": "xxx",
+	"PROJECT4_HEADER": "Project for the recruitment of Iraqi Turkmen to society and work life",
+	"PROJECT4_DESC": "---",
 
 	"_comment": "Contact Section",
 	"CONTACT": "Contact",

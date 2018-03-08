@@ -64,7 +64,7 @@ p{
 	height: 100px;
 }
 .logoLink{
-	padding: 0px!important; 
+	padding: 0px!important;
 	margin: 0px!important;
 }
 .logoLink:hover{
@@ -117,6 +117,9 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border-top-color: #EEEEEE;
+}
+.wmg-details-content img{
+  padding: 30px 0;
 }
 
 @media (min-width: 768px) {
