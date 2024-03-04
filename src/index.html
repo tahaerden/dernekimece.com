@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="İnsan, mekan, enerji ve Çevrekan, enerji ve çevre kavramlarını nitelikli yaşam kavramıyla bütünleştirecek projelerde yer almak, hizmet vermek misyonuyla kurulmuştur."
+    />
+    <meta name="author" content="Taha ERDEN" />
+    <title>Dernek İMEÇE</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/external/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/external/font-awesome.min.css" />
+  </head>
+  <body>
+    <app-root></app-root>
+    <script type="text/javascript" src="assets/external/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/external/bootstrap.min.js"></script>
+    <script>
+      $("a[href*=\\#]").on("click", function (event) {
+        event.preventDefault();
+        var hash = this.hash;
+        setTimeout(function () {
+          $("html,body").animate(
+            {
+              scrollTop: $(hash).offset().top - 150
+            },
+            500
+          );
+        }, 200);
+      });
+
+      // Smooth scrolling when the document is loaded and ready
+      $(document).ready(function () {
+        if (location.hash) {
+          $("html,body").animate(
+            {
+              scrollTop: $(location.hash).offset().top - 150
+            },
+            500
+          );
+        }
+      });
+    </script>
+  </body>
+</html>

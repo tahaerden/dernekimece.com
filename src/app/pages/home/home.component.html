@@ -1,0 +1,206 @@
+<nav id="nav-main" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle collapsed"
+        data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html"
+        ><img class="logo hidden-lg" src="assets/img/logo.png" alt="Dernek İmeçe logo"
+      /></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse slimscroll" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <!-- <li><a href="index.html">{{'HOME' | translate}}</a></li> -->
+        <li>
+          <a (click)="scrollToElement(hakkimizda)">{{ "ABOUT" | translate }}</a>
+        </li>
+        <!-- <li><a href="#vizyon">{{'VISION' | translate}}</a></li> -->
+        <li>
+          <a (click)="scrollToElement(projects)">{{ "PROJECTS" | translate }}</a>
+        </li>
+        <li>
+          <a href="index.html" class="logoLink"
+            ><img
+              class="logo visible-lg"
+              style="margin: 0px auto"
+              src="assets/img/logo.png"
+              alt="Dernek İmeçe logo"
+          /></a>
+        </li>
+        <!-- <li><a href="#misyon">{{'MISSION' | translate}}</a></li> -->
+        <li>
+          <a (click)="scrollToElement(iletisim)">{{ "CONTACT" | translate }}</a>
+        </li>
+        <!-- Language Option -->
+        <li class="dropdown messages-menu">
+          <a href="" class="dropdown-toggle language-selector" data-toggle="dropdown">
+            <i class="fa fa-globe"></i>
+            <span> {{ "CURRENT_LANG" | translate }}</span>
+            <i class="fa fa-caret-down"></i>
+          </a>
+
+          <ul class="dropdown-menu">
+            <li>
+              <ul class="menu">
+                <li>
+                  <a href="" (click)="changeLanguage('en')"> English </a>
+                </li>
+                <li>
+                  <a href="" (click)="changeLanguage('tr')"> Türkçe </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="row">
+  <div class="container">
+    <div class="col-sm-12">
+      <img
+        src="assets/img/logo.png"
+        alt="Dernek İMEÇE logo"
+        class="img-responsive"
+        style="margin: 0px auto; padding-top: 40px"
+      />
+      <h2>İnsan, Mekan, Enerji ve Çevre Derneği</h2>
+      <!-- <div class="seperator"></div> -->
+      <!-- <h4 class="text-secondary">Dernek geçmişi, uzmanlık alanları ve deneyimleri</h4> -->
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container">
+    <div #hakkimizda class="col-md-4">
+      <h2><i class="fa fa-info-circle"></i> {{ "ABOUT" | translate }}</h2>
+      <div class="seperator"></div>
+      <h4 class="text-secondary">{{ "ABOUT_DESC" | translate }}</h4>
+      <div class="col-sm-12">
+        <p>
+          {{ "ABOUT_TEXT" | translate }}
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h2><i class="fa fa-eye"></i> {{ "VISION" | translate }}</h2>
+      <div class="seperator"></div>
+      <h4 class="text-secondary">{{ "VISION_DESC" | translate }}</h4>
+      <p [innerHtml]="'VISION_TEXT' | translate"></p>
+    </div>
+    <div class="col-md-4">
+      <h2><i class="fa fa-handshake-o"></i> {{ "MISSION" | translate }}</h2>
+      <div class="seperator"></div>
+      <h4 class="text-secondary">{{ "MISSION_DESC" | translate }}</h4>
+      <p [innerHtml]="'MISSION_TEXT' | translate"></p>
+    </div>
+  </div>
+</div>
+
+<div #projects class="row">
+  <div class="container">
+    <div class="col-sm-12">
+      <h2><i class="fa fa-pencil"></i> {{ "PROJECTS_APPLIED" | translate }}</h2>
+
+      <!-- <a href="#portfolio-details" (click)="activeProject = 1" class="portfolio-thumbnail col-md-6 col-sm-12">
+        <img src="assets/img/projects/AFCP.jpg" alt="image">
+        <span class="portfolio-title">AFCP</span>
+      </a> -->
+      <a
+        (click)="scrollToElement(portfolioDetails); activeProject = 2"
+        class="portfolio-thumbnail col-lg-4 col-sm-12"
+      >
+        <img src="assets/img/projects/tamzara.jpg" alt="image" />
+        <span class="portfolio-title">{{ "PROJECT2_SHORTNAME" | translate }}</span>
+      </a>
+      <a
+        (click)="scrollToElement(portfolioDetails); activeProject = 3"
+        class="portfolio-thumbnail col-lg-4 col-sm-12"
+      >
+        <img src="assets/img/projects/kura.jpg" alt="image" />
+        <span class="portfolio-title">{{ "PROJECT3_SHORTNAME" | translate }}</span>
+      </a>
+      <a
+        (click)="scrollToElement(portfolioDetails); activeProject = 4"
+        class="portfolio-thumbnail col-lg-4 col-sm-12"
+      >
+        <img src="assets/img/projects/icd.jpg" alt="image" />
+        <span class="portfolio-title">{{ "PROJECT4_SHORTNAME" | translate }}</span>
+      </a>
+    </div>
+
+    <div class="col-sm-12" #portfolioDetails [hidden]="!activeProject">
+      <i (click)="activeProject = null" class="fa fa-close portfolio-details-close"></i>
+      <h3>{{ "PROJECT" + activeProject + "_HEADER" | translate }}</h3>
+      <hr />
+      <p [innerHTML]="'PROJECT' + activeProject + '_DESC' | translate"></p>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container-fluid">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d321.97414432258665!2d32.81884386103712!3d39.84843675737354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d344252492b42b%3A0xcd6356cbb826b436!2zRGVybmVrIMSwTUXDh0U!5e0!3m2!1sen!2str!4v1709544916761!5m2!1sen!2str"
+      width="100%"
+      height="400"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="container text-center">
+    <div #iletisim class="col-md-12">
+      <h2>{{ "CONTACT" | translate }}</h2>
+      <div class="seperator"></div>
+      <h4 class="text-secondary">{{ "CONTACT_DESC" | translate }}</h4>
+      <div class="col-sm-4" style="min-height: 230px">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x text-secondary"></i>
+          <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+        </span>
+        <br />
+        <h3>{{ "ADDRESS" | translate }}</h3>
+        <p class="text-center">Zekai Apaydın sok. 20/A Oran/Çankaya/Ankara, Türkiye</p>
+      </div>
+      <div class="col-sm-4" style="min-height: 230px">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x text-secondary"></i>
+          <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+        </span>
+        <br />
+        <h3>{{ "PHONE" | translate }}</h3>
+        <p class="text-center">90 312 491 34 50</p>
+      </div>
+      <div class="col-sm-4" style="min-height: 230px">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x text-secondary"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+        <br />
+        <h3>{{ "EMAIL" | translate }}</h3>
+        <p class="text-center">info@dernekimece.com</p>
+      </div>
+    </div>
+  </div>
+</div>
