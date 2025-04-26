@@ -142,6 +142,13 @@
         <img src="assets/img/projects/icd.jpg" alt="image" />
         <span class="portfolio-title">{{ "PROJECT4_SHORTNAME" | translate }}</span>
       </a>
+      <a
+        (click)="scrollToElement(portfolioDetails); activeProject = 5"
+        class="portfolio-thumbnail col-lg-4 col-sm-12"
+      >
+        <img src="assets/img/projects/samsun_sosyo-ekoloji_portal.jpg" alt="image" />
+        <span class="portfolio-title">{{ "PROJECT5_SHORTNAME" | translate }}</span>
+      </a>
     </div>
 
     <div class="col-sm-12" #portfolioDetails [hidden]="!activeProject">
